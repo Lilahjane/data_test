@@ -1,7 +1,11 @@
 # ai prompt writing
 
 
-below is my prompt my schema a recipes ingredients and an output I got from Quen2.5-coder-0.5b-instruct-4bit
+below is 
+- my prompt, 
+- my schema, 
+- a recipes ingredients 
+- and an output I got from **Quen2.5-coder-0.5b-instruct-4bit**
 
 ## prompt:
 	This recipe is not formatted correctly for my data base can you take the recipe below and parse it into this format prefer imperial measurements over metric
