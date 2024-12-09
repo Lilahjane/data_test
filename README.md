@@ -6,7 +6,7 @@ below is my prompt my schema a recipes ingredients and an output I got from Quen
 ##prompt
 	This recipe is not formatted correctly for my data base can you take the recipe below and parse it into this format prefer imperial measurements over metric
 ##schema
-'''
+```
 Ingredients": [
             {
                 "quantity": " amount",
@@ -17,18 +17,18 @@ Ingredients": [
 		        "alternative": "if there is an extra ingredient in the ingerdient you will add it here  "
             },
         ]
-'''
+```
 ### Example:
 
 ### Recipe ingredient string 
 
-'''
+```
 1/2 cup /60g well-chopped walnuts or pecans
-'''
+```
 
 Parsed output
 
-'''
+```json
 “Ingredients": [
             {
                 "quantity": “1/2",
@@ -39,11 +39,12 @@ Parsed output
 		        "alternative": "pecans "
             },
         ]
-'''
+```
 
 ##recipe ingredients
 
-'''
+```json
+
 "ingredients": [
 "1 cup / 225g unsalted butter, room temperature",
 "1 cup / 200g granulated sugar",
@@ -59,8 +60,9 @@ Parsed output
 "1 teaspoon baking soda",
 "1 1/2 teaspoon fine grain sea salt",
 "Large-grain sugar (optional)",
-"Freeze-dried raspberries, crushed (optional)"],
-'''
+"Freeze-dried raspberries, crushed (optional)"
+],
+```
 ##output from ai 
 
 Here's the JSON representation of the recipe ingredients:
