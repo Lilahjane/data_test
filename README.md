@@ -10,15 +10,15 @@ below is
 ## prompt:
 	This recipe is not formatted correctly for my data base can you take the recipe below and parse it into this format prefer imperial measurements over metric
 ## schema
-```
+```json
 Ingredients": [
             {
                 "quantity": " amount",
                 "unit": "oz., cup teaspoon etc",
                 "ingredient": "the name of the ingredient",
                 "preparation_method":"words like minced diced shredded trimmed",
-		        "optional_notes": "the recipe authors extra information or (optional)"
-		        "alternative": "if there is an extra ingredient in the ingerdient you will add it here  "
+		        		"optional_notes": "the recipe authors extra information or (optional)",
+		        		"alternative": "if there is an extra ingredient in the ingerdient you will add it here",
             },
         ]
 ```
